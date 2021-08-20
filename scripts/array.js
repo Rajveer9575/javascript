@@ -26,6 +26,6 @@ let matrix = [
     [7,8,9]
 ];
 
-console.log(matrix[1][1]);
-let num = [1,2,3];
-console.log(String(num));
+let num = ["I","go","home"];
+num.splice(0,3,"Let's dance","right","now");
+console.log(num);
