@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: "Encode Sans SC", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-image:url('../assets/background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: 1200px;
+    box-shadow: rgba(149, 157,165, 0.2) 0px 8px 24px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 200px 200px;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.item {
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 15px;
+    background-image: url('../assets/pexels-photo-531880.jpeg');
+    background-size: cover;
+    background-position: center;
+}

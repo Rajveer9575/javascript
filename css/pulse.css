@@ -1,0 +1,28 @@
+/* a{
+    background-color: rgba(61,61,240,0.8);
+    place-items: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 16px;
+    border: 30px;
+} */
+
+.pulse{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #F72585;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0%{
+        box-shadow: #f7258488 0 0;
+    }
+    70%{
+        box-shadow: #f7258588 0 0 0 24px;
+    }
+    100%{
+        box-shadow: #f7258488 0 0;
+    }
+}
