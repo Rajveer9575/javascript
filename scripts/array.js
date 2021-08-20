@@ -27,3 +27,5 @@ let matrix = [
 ];
 
 console.log(matrix[1][1]);
+let num = [1,2,3];
+console.log(String(num));
