@@ -5,12 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/pulse.css">
-    <script src="scripts/array.js"></script>
-    <title>Pulsing Effect</title>
+    <script src="scripts/array.js"></script> 
+    <script src="scripts/iterable.js"></script>
+    <script src="scripts/map.js"></script>
+    <title>Array</title>
 </head>
-<body>
-    <div class="pulse">
-    </div>
+<body >
+    <form >
+        <p>Please insert the items</p>
+        <input type="text" id="box">
+         <input type="submit" > 
+    </form>
+    <button onclick="addFruits()">ADD FRUIT</button>
+    <button onclick="deleteFruits()">DELETE FRUITS</button>
     <button onclick="getFruits()">GET FRUITS</button>
 </body>
 </html>

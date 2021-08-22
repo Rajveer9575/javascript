@@ -58,10 +58,28 @@ console.log(alpha2.concat(arrayLike));
 //   console.log(`${item} is at index ${index} in ${alpha1}`)
 // });
 
+
+const addFruits = () => {
+    let clone = Object.assign([],fruits);
+        boxvalue = document.getElementById('box').value;
+        clone.push(boxvalue);
+        console.log(clone);
+};
+
 const getFruits = ()=> {
     fruits.forEach((item,index,fruits) => {
         console.log(`${item} is at index ${index} in ${fruits}`);
     });
-}
+};
 
-getFruits();
+const deleteFruits = () => {
+    let clone = Object.assign([],fruits);
+    clone.pop();
+    console.log(clone);
+};
+
+addFruits();
+
+//getFruits();
+
+
